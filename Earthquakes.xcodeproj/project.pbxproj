@@ -13,6 +13,8 @@
 		F8CF64A023106D7B00B17136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8CF649F23106D7B00B17136 /* Assets.xcassets */; };
 		F8CF64A323106D7B00B17136 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8CF64A223106D7B00B17136 /* Preview Assets.xcassets */; };
 		F8CF64A623106D7B00B17136 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8CF64A423106D7B00B17136 /* LaunchScreen.storyboard */; };
+		F8CF64AF23109C3600B17136 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CF64AE23109C3600B17136 /* Models.swift */; };
+		F8CF64B123109DD800B17136 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CF64B023109DD800B17136 /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F8CF64A223106D7B00B17136 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F8CF64A523106D7B00B17136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8CF64A723106D7B00B17136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8CF64AE23109C3600B17136 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F8CF64B023109DD800B17136 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		F8CF649823106D7900B17136 /* Earthquakes */ = {
 			isa = PBXGroup;
 			children = (
+				F8CF64AD2310702500B17136 /* Models */,
 				F8CF649923106D7900B17136 /* AppDelegate.swift */,
 				F8CF649B23106D7900B17136 /* SceneDelegate.swift */,
 				F8CF649D23106D7900B17136 /* ContentView.swift */,
@@ -63,6 +68,7 @@
 				F8CF64A423106D7B00B17136 /* LaunchScreen.storyboard */,
 				F8CF64A723106D7B00B17136 /* Info.plist */,
 				F8CF64A123106D7B00B17136 /* Preview Content */,
+				F8CF64B023109DD800B17136 /* NetworkingManager.swift */,
 			);
 			path = Earthquakes;
 			sourceTree = "<group>";
@@ -73,6 +79,14 @@
 				F8CF64A223106D7B00B17136 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8CF64AD2310702500B17136 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F8CF64AE23109C3600B17136 /* Models.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +163,8 @@
 				F8CF649A23106D7900B17136 /* AppDelegate.swift in Sources */,
 				F8CF649C23106D7900B17136 /* SceneDelegate.swift in Sources */,
 				F8CF649E23106D7900B17136 /* ContentView.swift in Sources */,
+				F8CF64B123109DD800B17136 /* NetworkingManager.swift in Sources */,
+				F8CF64AF23109C3600B17136 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
